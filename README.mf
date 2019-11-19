@@ -4,5 +4,28 @@ Process
 
 - List all Process
 ps -e
-  
+ps -ef
+ps -e | grep str
+
+- Kill Process
+kill PID
+kill -9 PID
+killall NAME
+killall -9 NAME
+
+-View resource Process
+top
+top -u username
+-
+-Backgroud and Foreground process
+start a process, example firefox and gedit
+ctr+z
+jobs- list process in bg(stopped, running)
+bg - scale for background 
+fg - scale for Foreground
+gedit & - direct for backgroud
+pstree - list complete three process
+
+
+
 
