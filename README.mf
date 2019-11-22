@@ -1,7 +1,4 @@
 Helps of Course
-
-Process
-
 - List all Process
 ps -e
 ps -ef
@@ -13,11 +10,11 @@ kill -9 PID
 killall NAME
 killall -9 NAME
 
--View resource Process
+- View resource Process
 top
 top -u username
--
--Backgroud and Foreground process
+
+- Backgroud and Foreground process
 start a process, example firefox and gedit
 ctr+z
 jobs- list process in bg(stopped, running)
@@ -26,6 +23,33 @@ fg - scale for Foreground
 gedit & - direct for backgroud
 pstree - list complete three process
 
+- Scripts / Bash
+Example:
+echo "Sleeping for 15 seconds..."
+sleep 15
+echo "Wake Up now!"
 
+- Permissions 
+execution: chmod +x sleep.sh
+
+-Update DB Linux
+updatedb
+sudo updatedb
+
+- Find Folder Files\Programs
+locate vim
+locate vim | grep bin
+locate appserver
+which vim
+which gedit
+
+- /usr/bin/
+Folder for executions of binaries
+
+- View user 
+whoami
+
+- Alter password
+passwd your_user
 
 
