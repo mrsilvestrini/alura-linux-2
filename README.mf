@@ -14,7 +14,10 @@ killall -9 NAME
 - View resource Process
 top
 top -u username
--
+
+- Count Process
+ps -e | wc -l
+
 - Backgroud and Foreground process
 start a process, example firefox and gedit
 ctr+z
@@ -23,6 +26,36 @@ bg - scale for background
 fg - scale for Foreground
 gedit & - direct for backgroud
 pstree - list complete three process
+
+- Scripts / Bash
+Example:
+echo "Sleeping for 15 seconds..."
+sleep 15
+echo "Wake Up now!"
+
+- Permissions
+execution: chmod +x sleep.sh
+
+- Update DB Linux
+updatedb
+sudo updatedb
+
+- Find Folder Files\Programs
+locate vim
+locate vim | grep bin
+locate appserver
+which vim
+which gedit
+
+- /usr/bin/
+Folder for executions of binaries
+
+- View user
+whoami
+
+- Alter password
+passwd your_user
+
 
 - Add dir in PATH
 PATH=$PATH:/home/protheus/appserver/
@@ -38,7 +71,3 @@ add Users
 adduser new_user
 passwd new_user
 su new_user
-
-- Count Process
-ps -e | wc -l
-
