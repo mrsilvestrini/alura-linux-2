@@ -1,4 +1,5 @@
 Helps of Course
+
 - List all Process
 ps -e
 ps -ef
@@ -13,6 +14,9 @@ killall -9 NAME
 - View resource Process
 top
 top -u username
+
+- Count Process
+ps -e | wc -l
 
 - Backgroud and Foreground process
 start a process, example firefox and gedit
@@ -32,7 +36,7 @@ echo "Wake Up now!"
 - Permissions 
 execution: chmod +x sleep.sh
 
--Update DB Linux
+- Update DB Linux
 updatedb
 sudo updatedb
 
@@ -46,10 +50,22 @@ which gedit
 - /usr/bin/
 Folder for executions of binaries
 
-- View user 
+- View user
 whoami
 
 - Alter password
 passwd your_user
 
+- Add dir in PATH
+PATH=$PATH:/home/protheus/appserver/
 
+- Alter Terminal variable (PS1)
+echo PS1
+PS1-'silvestrini: '
+echo PS1
+
+- Users
+add Users
+adduser new_user
+passwd new_user
+su new_user
